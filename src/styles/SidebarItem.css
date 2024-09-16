@@ -1,0 +1,28 @@
+.sidebarItem {
+    display: flex;
+    padding: 10px 0;
+    border-radius: 0 100px 100px 0;
+    padding-left: 8px; /* Reduce the padding to move content closer to the left */
+}
+
+/* Hover effect for sidebar items */
+.sidebarItem:hover {
+    background-color: rgba(0, 0, 0, 0.04);
+}
+
+/* Sidebar icon styling */
+.sidebarItem__arrow {
+    width: 28px;
+    margin-left: 0; /* Remove left margin to place icon near the left edge */
+}
+
+/* Sidebar main content */
+.sidebarItem__main {
+    display: flex;
+   
+}
+
+/* Paragraph inside the main section */
+.sidebarItem__main > p {
+    margin-left: 12px;
+}
